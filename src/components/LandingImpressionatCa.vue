@@ -90,7 +90,7 @@
         </div>
 
         <div class="card">
-          <img class="card-img" src="../assets/enquadernacions.svg" alt="impressions">
+          <img class="card-img" src="../assets/enquadernacions.svg" alt="enquadernacions">
           <h4>Enquadernacions</h4>
           <p>
             Llibres, tesis, revistes, dossiers i documents perfectament acabats.
@@ -98,7 +98,7 @@
         </div>
 
         <div class="card">
-          <img class="card-img" src="../assets/fotocopies.svg" alt="impressions">
+          <img class="card-img" src="../assets/fotocopies.svg" alt="fotocopies">
           <h4>Fotocòpies</h4>
           <p>
             Servei ràpid, econòmic i molt eficient per al teu dia a dia.
@@ -106,14 +106,14 @@
         </div>
 
         <div class="card">
-          <img class="card-img" src="../assets/curriculums.svg" alt="impressions">
+          <img class="card-img" src="../assets/curriculums.svg" alt="curriculums">
           <h4>Currículums</h4>
           <p>
             Impressió professional per causar una gran primera impressió.
           </p>
         </div>
         <div class="card">
-                        <img class="card-img" src="../assets/plastificats.svg" alt="impressions">
+                        <img class="card-img" src="../assets/plastificats.svg" alt="plastificats">
           <h4>Plastificats</h4>
           <p>
             Per molts tipus de formats, amb diferents acabats a la teva mida.
