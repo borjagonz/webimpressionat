@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Aloja';
+  src: url('/fonts/AlojaExtended.woff2') format('woff2');
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  font-family: 'Arimo', sans-serif;
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
