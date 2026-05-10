@@ -538,6 +538,8 @@ ${this.message}`
   gap: 20px;
   flex-wrap: wrap;
   margin: 0 auto;
+  justify-content: center;
+  justify-items: center;
 }
 
 .primary-btn,
