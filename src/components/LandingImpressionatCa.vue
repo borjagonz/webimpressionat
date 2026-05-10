@@ -443,6 +443,8 @@ ${this.message}`
   z-index: 2000;
   transition: all 0.3s ease;
   align-content: center;
+  text-decoration: none;
+  color: black;
 }
 
 .hamburger:hover {
@@ -464,7 +466,7 @@ ${this.message}`
 .hero-content {
   width: 100%;
   height: 100%;
-  padding: 120px 10%;
+  padding: 100px 10%;
   text-align: center;
   justify-items: center;
   align-content: center;
@@ -490,7 +492,6 @@ ${this.message}`
   background: #ffffff20;
   padding: 8px 18px;
   border-radius: 50px;
-  display: inline-block;
   margin-bottom: 40px;
   backdrop-filter: blur(10px);
   display: flex;
@@ -501,6 +502,7 @@ ${this.message}`
   text-decoration: none;
   color: white;
   transition: all 0.3s ease;
+  border: 1px solid rgba(255,255,255, 0.2);
 }
 
 .badge:hover {
@@ -573,8 +575,9 @@ ${this.message}`
 }
 
 .services {
-  padding: 150px 0 0px 0;
+  padding: 120px 0 0px 0;
   color: white;
+  
 }
 
 .services h3,
@@ -604,12 +607,13 @@ ${this.message}`
   height: 290px;
   align-items: center;
   align-content: center;
+  border: 1px solid rgba(255,255,255, 0.2);
+box-shadow: inset 0px 0px 50px rgba(0,0,0,0.3)
 }
 
 .card:hover {
   background-color: #f20eca;
-  border: none;
-  box-shadow: 0 0 50px rgba(242, 14, 202, 0.7);
+  border: 1px solid rgba(255,255,255, 0.2);
 }
 
 .card-img {
@@ -632,7 +636,7 @@ ${this.message}`
 
 .galeria {
   color: white;
-  padding: 150px 10% 0px 10%;
+  padding: 120px 10% 0px 10%;
 }
 
 .galeria h3 {
@@ -652,7 +656,7 @@ ${this.message}`
 
 .carousel-wrapper {
   position: relative;
-  margin: 80px auto 0 auto;
+  margin: 30px auto 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -676,6 +680,7 @@ ${this.message}`
   z-index: 5;
   position: relative;
   box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+  border: 1px solid rgba(255,255,255, 0.5);
 }
 
 .side-image {
@@ -687,6 +692,7 @@ ${this.message}`
   opacity: 0.3;
   transition: all 0.9s ease;
   filter: blur(1px);
+  border: 1px solid rgba(255,255,255, 0.5);
 }
 
 .left-image {
@@ -778,12 +784,12 @@ ${this.message}`
 
 .reviews {
   color: white;
-  padding: 150px 10% 0px 10%;
+  padding: 120px 10% 0px 10%;
   margin: 0 auto;
 }
 
 .reviews p {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .reviews span {
@@ -808,6 +814,8 @@ ${this.message}`
   height: 230px;
   transition: all 0.3s ease;
   align-content: center;
+  border: 1px solid rgba(255,255,255, 0.2);
+box-shadow: inset 0px 0px 50px rgba(0,0,0,0.3)
 }
 
 .review-card1:hover {
@@ -825,6 +833,8 @@ ${this.message}`
   height: 230px;
   transition: all 0.3s ease;
   align-content: center;
+  border: 1px solid rgba(255,255,255, 0.2);
+box-shadow: inset 0px 0px 50px rgba(0,0,0,0.3)
 }
 
 .review-card2:hover {
@@ -842,6 +852,8 @@ ${this.message}`
   height: 230px;
   transition: all 0.3s ease;
   align-content: center;
+  border: 1px solid rgba(255,255,255, 0.2);
+box-shadow: inset 0px 0px 50px rgba(0,0,0,0.3)
 }
 
 .review-card3:hover {
@@ -850,17 +862,17 @@ ${this.message}`
 
 .contact {
   margin: 160px 0px 0px 0px;
-  padding: 160px 10%;
+  padding: 120px 10%;
   color: white;
   background: #191919;
-  background-image: url(../assets/hero-fons-3.png);
+  background-image: url(../assets/hero-fons-4.png);
   background-position: center;
   background-size: cover;
 }
 
 .contact-content {
   border-radius: 30px;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -889,7 +901,7 @@ ${this.message}`
 }
 
 .form-grid {
-  display: grid;
+  display: flex;
   flex-direction: column;
   grid-template-columns: 1fr;
   gap: 30px;
@@ -915,7 +927,8 @@ ${this.message}`
 .contact-form input,
 .contact-form textarea {
   background: transparent;
-  border: 1px solid rgba(255,255,255,1);
+  border: 1px solid rgba(255,255,255, 0.2);
+box-shadow: inset 0px 0px 50px rgba(0,0,0,0.3);
   border-radius: 18px;
   padding: 18px 22px;
   color: white;
@@ -958,12 +971,13 @@ ${this.message}`
   box-shadow: 0 0 30px rgba(255,255,255, 0.5);}
 
 .info {
-  margin: 150px 10% 100px 10%;
+  margin: 120px 10% 100px 10%;
   display: flex;
   justify-content: space-between;
   background: #191919;
-border-radius: 30px;
+  border-radius: 30px;
   align-items: center;
+  border: 1px solid rgba(255,255,255, 0.2);
 }
 
 .info-box {
@@ -1020,7 +1034,6 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  border: 2px solid white;
   border-radius: 30px;
   align-items: center;
 }
@@ -1067,7 +1080,7 @@ flex-wrap: wrap;
   .navlinks {
     position: absolute;
     top: 100%;
-    right: 5%;
+    right: 10%;
     flex-direction: column;
     align-items: center;
     gap: 0;
@@ -1100,6 +1113,10 @@ flex-wrap: wrap;
 }
 
 @media (max-width: 769px) {
+
+  .navlinks {
+    right: 5%;
+  }
 
   .services h3{
     font-size: 44px;
@@ -1196,6 +1213,14 @@ flex-wrap: wrap;
   flex-direction: column;
   padding: 50px 0px;
 }
+.form-left {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-left input {
+  width: 100%;
+}
 
 .contact-text,
 .contact-form {
@@ -1220,9 +1245,14 @@ flex-wrap: wrap;
 }
 
 @media (max-width: 550px){
+
   .navbar {
     padding: 30px;
   }
+  .navlinks {
+    right: 30px;
+  }
+
 .hero-buttons{
   flex-wrap: wrap;
   justify-content: center;
@@ -1267,17 +1297,79 @@ flex-wrap: wrap;
         padding: 30px;
 
   }
+
+  .services h3{
+    font-size: 36px;
+  }
+
+  .contact h3 {
+    font-size: 36px;
+  }
+
+  .galeria h3 {
+    font-size: 36px;
+  }
+
+  .reviews h3 {
+    font-size: 36px;
+  }
+
+  .info h3 {
+    font-size: 36px;
+  }
 }
 
 @media (max-width: 451px){
 
+  .navlinks {
+    right: 25px;
+  }
+
   .hero h2 {
-    font-size: 50px
+    font-size: 48px;
+    margin-bottom: 30px;
   }
 
   .hero p {
-    font-size: 20px;
+    font-size: 16px;
+    margin-bottom: 30px;
   }
+  .hero-content {
+    padding: 120px 25px 60px 25px;
+  }
+  .badge {
+    margin-bottom: 30px;
+  }
+
+  .logo{
+    height: 60px;
+  }
+  .navbar.scrolled .logo {
+    height: 60px;
+  }
+  
+  .navbar {
+  padding: 25px;
+}
+.navbar.scrolled{
+  padding: 25px;
+}
+
+.services{
+    padding: 80px 25px;
+}
+.contact {
+    padding: 80px 25px;
+}
+.galeria {
+    padding: 80px 25px;
+}
+.reviews {
+    padding: 0px 25px 80px 25px;
+}
+.info {
+      margin: 0px 25px 80px 25px;
+}
 }
 
 
