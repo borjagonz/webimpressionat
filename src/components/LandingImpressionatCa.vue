@@ -1330,7 +1330,7 @@ flex-wrap: wrap;
   }
 
   .hero h2 {
-    font-size: 48px;
+    font-size: 56px;
     margin-bottom: 30px;
   }
 
