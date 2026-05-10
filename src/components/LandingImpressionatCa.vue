@@ -1338,7 +1338,7 @@ flex-wrap: wrap;
     margin-bottom: 30px;
   }
   .hero-content {
-    padding: 100px 25px 60px 25px;
+    padding: 80px 25px 60px 25px;
   }
   .badge {
     margin-bottom: 30px;
