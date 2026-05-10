@@ -495,6 +495,7 @@ ${this.message}`
   margin-bottom: 40px;
   backdrop-filter: blur(10px);
   display: flex;
+  width: 230px;
   gap: 8px;
   font-weight: 400;
   font-size: 18px;
@@ -1335,7 +1336,7 @@ flex-wrap: wrap;
     margin-bottom: 30px;
   }
   .hero-content {
-    padding: 120px 25px 60px 25px;
+    padding: 100px 25px 60px 25px;
   }
   .badge {
     margin-bottom: 30px;
