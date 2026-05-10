@@ -493,7 +493,6 @@ ${this.message}`
   background: #ffffff20;
   padding: 8px 18px;
   border-radius: 50px;
-  margin-bottom: 40px;
   backdrop-filter: blur(10px);
   display: flex;
   width: 235px;
@@ -506,6 +505,7 @@ ${this.message}`
   transition: all 0.3s ease;
   border: 1px solid rgba(255,255,255, 0.2);
   margin: 0 auto;
+  margin-bottom: 40px;
 }
 
 .badge:hover {
@@ -537,6 +537,7 @@ ${this.message}`
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 .primary-btn,
