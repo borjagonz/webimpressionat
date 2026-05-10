@@ -468,6 +468,7 @@ ${this.message}`
   height: 100%;
   padding: 100px 10%;
   text-align: center;
+  justify-content: center;
   justify-items: center;
   align-content: center;
 }
@@ -495,7 +496,7 @@ ${this.message}`
   margin-bottom: 40px;
   backdrop-filter: blur(10px);
   display: flex;
-  width: 230px;
+  width: 235px;
   gap: 8px;
   font-weight: 400;
   font-size: 18px;
@@ -504,6 +505,7 @@ ${this.message}`
   color: white;
   transition: all 0.3s ease;
   border: 1px solid rgba(255,255,255, 0.2);
+  margin: 0 auto;
 }
 
 .badge:hover {
