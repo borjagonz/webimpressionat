@@ -64,7 +64,8 @@
     rel="noopener noreferrer"
     class="primary-btn"
   >
-    WhatsApp 💬
+    WhatsApp
+    <img class="whatsappicon" src="../icons/whatsapp-svgrepo-com.svg" alt="icon whatsapp">
   </a>
 
             <a
@@ -232,27 +233,31 @@ Contacta amb nosaltres per demanar-nos un pressupost o resoldre qualsevol dubte.
 
       <div class="review-grid">
         <div class="review-card1">
+          <span>★★★★★</span>
           <p>
             “Excel·lent servei, tracte molt amable i molt bons preus.”
           </p>
+          <h4>Laura A.</h4>
 
-          <span>★★★★★</span>
         </div>
 
         <div class="review-card2">
+          <span>★★★★★</span>
+
           <p>
             “La qualitat de la impressió és boníssima.”
           </p>
+          <h4>Joan C.</h4>
 
-          <span>★★★★★</span>
+
         </div>
 
         <div class="review-card3">
+          <span>★★★★★</span>
           <p>
             “Professionals, seriosos i molt amables.”
           </p>
-
-          <span>★★★★★</span>
+          <h4>Eric G.</h4>
         </div>
       </div>
     </section>
@@ -278,7 +283,7 @@ Contacta amb nosaltres per demanar-nos un pressupost o resoldre qualsevol dubte.
         <div class="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11971.049997007447!2d2.158261196872279!3d41.40096389784573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a3e3d1bb8b49%3A0x297c4316eee086a6!2sImpressionat%20Copisteria!5e0!3m2!1ses!2ses!4v1778265730472!5m2!1ses!2ses" 
             width="100%" 
-            height="350"
+            height="400"
             style="border:0;" 
             allowfullscreen=""
             loading="lazy"
@@ -405,7 +410,6 @@ ${this.message}`
 .navbar.scrolled {
   padding: 20px 10%;
   backdrop-filter: blur(20px);
-  background-color: rgba(0,0,0,0.2);
 }
 
 .logo {
@@ -420,19 +424,20 @@ ${this.message}`
 .navlinks {
   display: flex;
   gap: 10px;
-  background-color: white;
   border-radius: 100px;
   padding: 0px 20px;
   align-items: center;
+  background: none;
+  border: 1px solid rgba(255,255,255, 0.2);
+  box-shadow: inset 0px 0px 50px rgba(0,0,0,0.3)
 }
 
 .navlinks p {
-  color: rgb(223, 223, 223);
+  color: rgba(255,255,255, 0.3);
 }
 
 .hamburger {
   display: none;
-  background: white;
   border: none;
   border-radius: 60px;
   width: 55px;
@@ -444,7 +449,8 @@ ${this.message}`
   transition: all 0.3s ease;
   align-content: center;
   text-decoration: none;
-  color: black;
+  color: white;
+  background-color: transparent;
 }
 
 .hamburger:hover {
@@ -474,7 +480,7 @@ ${this.message}`
 }
 
 .call-button {
-  color: black;
+  color:white;
   text-decoration: none;
   text-align: center;
   align-items: center;
@@ -542,9 +548,15 @@ ${this.message}`
   justify-items: center;
 }
 
-.primary-btn,
+.primary-btn {
+  padding: 14px 28px 18px 28px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 .secondary-btn {
-  padding: 14px 28px;
+  padding: 16px 28px;
   border-radius: 12px;
   text-decoration: none;
   font-weight: bold;
@@ -554,6 +566,7 @@ ${this.message}`
   background: white;
   color: black;
   align-content: center;
+  align-items: center;
   border-radius: 100px;
   font-weight: 400;
   font-size: 18px;
@@ -563,6 +576,12 @@ ${this.message}`
 .primary-btn:hover {
   scale: 110%;
   box-shadow: 0 0 30px rgba(255,255,255, 0.5);
+}
+
+.whatsappicon {
+  width: 20px;
+  position: relative;
+  top: 3px;
 }
 
 .secondary-btn {
@@ -614,7 +633,7 @@ ${this.message}`
   align-items: center;
   align-content: center;
   border: 1px solid rgba(255,255,255, 0.2);
-box-shadow: inset 0px 0px 50px rgba(0,0,0,0.3)
+  box-shadow: inset 0px 0px 50px rgba(0,0,0,0.3)
 }
 
 .card:hover {
@@ -796,6 +815,13 @@ box-shadow: inset 0px 0px 50px rgba(0,0,0,0.3)
 
 .reviews p {
   font-size: 20px;
+  margin: 10px;
+}
+
+.reviews h4 {
+  font-size: 18px;
+  color: white;
+  opacity: 0.8;
 }
 
 .reviews span {
@@ -810,12 +836,12 @@ box-shadow: inset 0px 0px 50px rgba(0,0,0,0.3)
 }
 
 .review-card1 {
-  background: #2ab9fd;
-  color: black;
+  background: #191919;
+  color: white;
   padding: 50px;
   border-radius: 20px;
   text-align: center;
-  min-width: 260px;
+  min-width: 300px;
   max-width: 380px;
   height: 230px;
   transition: all 0.3s ease;
@@ -825,16 +851,16 @@ box-shadow: inset 0px 0px 50px rgba(0,0,0,0.3)
 }
 
 .review-card1:hover {
-  background: white;
+  background: #2ab9fd;
 }
 
 .review-card2 {
-  background: #f11ac8;
-  color: black;
+  background: #191919;
+  color: white;
   padding: 50px;
   border-radius: 20px;
   text-align: center;
-  min-width: 250px;
+  min-width: 300px;
   max-width: 380px;
   height: 230px;
   transition: all 0.3s ease;
@@ -844,12 +870,12 @@ box-shadow: inset 0px 0px 50px rgba(0,0,0,0.3)
 }
 
 .review-card2:hover {
-  background: white;
+  background: #2ab9fd;
 }
 
 .review-card3 {
-  background: #eef413;
-  color: black;
+  background: #191919;
+  color: white;
   padding: 50px;
   border-radius: 20px;
   text-align: center;
@@ -863,7 +889,11 @@ box-shadow: inset 0px 0px 50px rgba(0,0,0,0.3)
 }
 
 .review-card3:hover {
-  background: white;
+  background: #2ab9fd;
+}
+
+.reviews span {
+  color: #eef413;
 }
 
 .contact {
@@ -977,13 +1007,14 @@ box-shadow: inset 0px 0px 50px rgba(0,0,0,0.3);
   box-shadow: 0 0 30px rgba(255,255,255, 0.5);}
 
 .info {
-  margin: 120px 10% 100px 10%;
+  margin: 140px 10% 120px 10%;
   display: flex;
   justify-content: space-between;
   background: #191919;
   border-radius: 30px;
   align-items: center;
   border: 1px solid rgba(255,255,255, 0.2);
+box-shadow: inset 0px 0px 50px rgba(0,0,0,0.3)
 }
 
 .info-box {
@@ -1005,7 +1036,7 @@ box-shadow: inset 0px 0px 50px rgba(0,0,0,0.3);
 
 .map {
   width: 50%;
-  padding: 60px;
+  padding: 30px 30px 30px 0px;
 }
 
 footer {
@@ -1085,15 +1116,18 @@ flex-wrap: wrap;
 
   .navlinks {
     position: absolute;
-    top: 100%;
+    top: 80%;
     right: 10%;
     flex-direction: column;
     align-items: center;
     gap: 0;
-    background: white;
+    background: #191919;
+    backdrop-filter: blur(20px);
     border-radius: 24px;
     padding: 20px;
     width: 220px;
+    border: 1px solid rgba(255,255,255, 0.2);
+    box-shadow: inset 0px 0px 50px rgba(0,0,0,0.3);
 
     opacity: 0;
     visibility: hidden;
